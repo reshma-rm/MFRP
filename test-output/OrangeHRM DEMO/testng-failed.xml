@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OrangeHRM DEMO]">
+  <test thread-count="5" name="Testcases(failed)">
+    <classes>
+      <class name="admin.AddUser">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- admin.AddUser -->
+    </classes>
+  </test> <!-- Testcases(failed) -->
+</suite> <!-- Failed suite [OrangeHRM DEMO] -->

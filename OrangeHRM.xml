@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Orangehrm" verbose="2">
+	<test name="Test MFRTproject">
+
+		<classes>
+			<class name="login.Login"></class>
+			<class name="admin.AddUser"></class> 
+			<class name="admin.Job"></class>
+			 <class name="admin.Organization"></class>
+			<class name="admin.Qualification"></class> 
+			<class name="admin.Nationality"></class>
+			<class name="pimmodule.Configuration"></class>
+			<class name="pimmodule.Reports"></class> 
+			<class name="leave.Entitlements"></class>
+			 <class name="leave.Leavereports"></class>
+			<class name="leave.Configure"></class>
+			<class name="leave.Leavelist"></class>
+			<class name="leave.Assignleave"></class>
+			<class name="recruitment.Candidates"></class>
+			 <class name="recruitment.Vacancies"></class>
+			<class name="performance.KPI"></class>
+			<class name="performance.Trackers"></class>
+			<class name="performance.ManageReviews"></class> 
+ 			<class name="testsuites.CloseSite"></class>
+		</classes>
+	</test>
+</suite>
